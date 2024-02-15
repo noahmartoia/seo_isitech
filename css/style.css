@@ -17,6 +17,10 @@ body header {
   display: flex;
   justify-content: space-between;
 }
+body header img {
+  width: 10rem;
+  height: 10rem;
+}
 body header ul {
   list-style: none;
   padding: 0;
