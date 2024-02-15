@@ -1,0 +1,91 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+    transition: 0.2s all;
+}
+html{
+    font-size: 62.5%;
+}
+body{
+    margin: 0;
+    font-size: 1.6rem;
+    header{
+        box-sizing: border-box;
+        padding: 1rem;
+        display: flex;
+        justify-content: space-between;
+        ul{
+            list-style: none;
+            padding: 0;
+            li{
+                display: inline-block;
+                margin: 1rem;
+            }
+            a{
+                text-decoration: none;
+                color: gray;
+                &:hover{
+                    color: rgb(86, 86, 86);
+                }
+            }
+        }
+    }
+    main{
+        text-align: center;
+        .flex{
+            display: flex;
+            flex-wrap: wrap;
+            >div{
+                margin: 1rem auto;
+                display: block;
+                width: 30rem;
+                border: 1px solid gray;
+                border-radius: 1rem;
+                img{
+                    border-radius: 1rem 1rem 0 0;
+                }
+            }
+        }
+        .grid{
+            display: grid;
+            max-width: 110.48rem;
+            margin: 1rem auto;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            >div{
+                margin: 1rem auto;
+                display: block;
+                width: 30rem;
+                border: 1px solid gray;
+                border-radius: 1rem;
+                img{
+                    border-radius: 1rem 1rem 0 0;
+                }
+            }
+        }
+    }
+    footer{
+        background: gray;
+        height: 10rem;
+        .flex{
+            display: flex;
+            justify-content: space-between;
+            a{
+                margin: 1rem;
+                text-decoration: none;
+                color:black;
+                &:hover{
+                    color: white;
+                }
+            }
+            .column{
+                display: flex;
+                flex-direction: column;
+            }
+            .icon{
+                margin: 1.6rem;
+                a{
+                    font-size: 2.4rem;
+                }
+            }
+        }
+    }
+}
