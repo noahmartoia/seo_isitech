@@ -48,6 +48,8 @@ body main .flex > div {
 }
 body main .flex > div img {
   border-radius: 1rem 1rem 0 0;
+  width: 30rem;
+  height: 18.75rem;
 }
 body main .grid {
   display: grid;
@@ -64,6 +66,8 @@ body main .grid > div {
 }
 body main .grid > div img {
   border-radius: 1rem 1rem 0 0;
+  width: 30rem;
+  height: 18.75rem;
 }
 body footer {
   background: gray;
